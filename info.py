@@ -93,7 +93,7 @@ IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 #Auto approve 
 #In private group or channel must enable request admin approval 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001863919592').split()]
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour request has been approved")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "🥀 𝐇𝐞𝐲 {mention}\n💥️ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 › {title}\n\n💞 𝐓𝐡𝐚𝐧𝐤 𖨆 𝐘𝐨𝐮 𝐅𝐨𝐫 𝐉𝐨𝐢𝐧")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
@@ -101,18 +101,18 @@ NO_RESULTS_MSG = is_enabled((environ.get('NO_RESULTS_MSG', "False")), True)
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
-MAX_BTN = int(environ.get('MAX_BTN', "10"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/MLZ_BOTZ_SUPPORT")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/MLZ_BOTZ")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/fileschannellls")
-MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺...')
+MAX_BTN = int(environ.get('MAX_BTN', "7"))
+S_GROUP = environ.get('S_GROUP',"https://t.me/+lTcjMF6iKqs1MjJl")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/CINEMACLUBLINKZ")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/CiNEMACLUBGROUPZ")
+MSG_ALRT = environ.get('MSG_ALRT', '⚙️𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺...')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MLZ_BOTZ_SUPPORT')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CINEMACLUBLINKZ)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
+SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CUSTOM_FILE_CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
