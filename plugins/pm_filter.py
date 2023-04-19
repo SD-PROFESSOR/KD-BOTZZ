@@ -832,13 +832,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )      
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="⬤ ▢ ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
+            text="⬤ ⬤ ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣"
+            text="⬤ ⬤ ⬤"
         )       
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -869,13 +869,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )      
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="⬤ ▢ ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
+            text="⬤ ⬤ ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣"
+            text="⬤ ⬤ ⬤"
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
