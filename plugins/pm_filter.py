@@ -785,7 +785,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(MSG_ALRT)
     elif query.data == "help1":
         buttons = [[                               
-            InlineKeyboardButton('SETTINGS', callback_data='settings')  
+            InlineKeyboardButton('•sᴇᴛᴛɪɴɢs•', callback_data='settings')  
             ],[
             InlineKeyboardButton('•Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ•', callback_data='manuelfilter'),
             InlineKeyboardButton('•Aᴜᴛᴏ Fɪʟᴛᴇʀ•', callback_data='autofilter')
@@ -793,7 +793,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('•Cᴏɴɴᴇᴄᴛɪᴏɴꜱ•', callback_data='coct'),
             InlineKeyboardButton('•Exᴛʀᴀ Mᴏᴅꜱ•', callback_data='extra')   
             ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('📊 Sᴛᴀᴛᴜꜱ', callback_data='stats'),
             InlineKeyboardButton('ɴᴇxᴛ', callback_data='help2')
          ]] 
@@ -822,6 +822,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb')
             ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='help1'),
             InlineKeyboardButton('ɴᴇxᴛ', callback_data='help3')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)  
@@ -858,6 +859,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴅᴇᴘʟᴏʏ', callback_data='deploy'),
             InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', callback_data='updates')
             ],[
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='help2')
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
