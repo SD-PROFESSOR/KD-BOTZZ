@@ -54,12 +54,13 @@ class script(object):
 <b>ᴄʀᴇᴀᴛᴏʀ ➾ </b> <a href=tg://settings><b>ᴛʜɪs ᴘᴇʀsᴏɴ</b></a>
 <b>ᴅᴇᴠᴏʟᴏᴘᴇʀ ➾ </b> <a href=https://t.me/MalluBlasters><b>𒆜ᴍʀ ᴋᴅ [ᴏғғɪᴄɪᴀɪʟ] 🇮🇳</b></a>"""
 
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """ʜᴇʟᴘ: <b>ᴄᴏɴɴᴇᴄᴛɪᴏɴs</b>
 
-- Used to connect bot to PM for managing filters 
-- it helps to avoid spamming in groups.
+- ᴜsᴇᴅ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʙᴏᴛ ᴛᴏ ᴘᴍ ғᴏʀ ᴍᴀɴᴀɢɪɴɢ ғɪʟᴛᴇʀs 
+- ɪᴛ ʜᴇʟᴘs ᴛᴏ ᴀᴠᴏɪᴅ sᴘᴀᴍᴍɪɴɢ ɪɴ ɢʀᴏᴜᴘs.
 
-<b>NOTE:</b>
+
+<b>ɴᴏᴛᴇ ➾</b>
 1. Only admins can add a connection.
 2. Send <code>/connect</code> for connecting me to ur PM
 
